@@ -25,7 +25,6 @@
         name: wireshark
         state: latest
 
-
 - name: create directory, file and set timezone on all servers
   hosts: webservers, nfs, db, db2, lb
   become: yes
